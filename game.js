@@ -19,5 +19,11 @@ var displayBoard = (board) =>{
  var width = 10
  var height = 10
 
+var cell = {
+    x: 0,
+    y: 0,
+    dead: false,    
+}
+
 gameBoard = createBoard(width,height);
 displayBoard(gameBoard);
